@@ -21,3 +21,4 @@ if response.status_code == 200:
     print(f"☁️ Condition: {weather}")
 else:
     print("❌ Error fetching data:", response.status_code)
+
